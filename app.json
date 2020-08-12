@@ -1,0 +1,31 @@
+{
+  "repository": "hhttps://github.com/smartass08/telegram_gcloner",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "CLIENT_ID": {
+      "description": "spotify client ID",
+      "value": ""
+    },
+    "DEEZER_PASSWORD": {
+      "description": "deezer password",
+    },
+    "DEEZER_TOKEN": {
+      "description": "Deezer token #Your Deezer token log (for get it log in Deezer from your PC press f12 and find arl cookie)",
+    },
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "telegram bot token",
+    },
+    "DEEZER_USERNAME": {
+      "description": "deezer username",
+    },
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING",
+    },
