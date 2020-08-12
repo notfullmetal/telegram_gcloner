@@ -5,7 +5,7 @@
     "telegram",
     "gclone"
   ],
-  "repository": "hhttps://github.com/smartass08/telegram_gcloner",
+  "repository": "https://github.com/smartass08/telegram_gcloner",
   "env": {
     "Path_TO_GCLONE": {
       "description": "Path to the gclone file",
