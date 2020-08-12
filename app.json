@@ -1,4 +1,10 @@
-{
+{ 
+  "name": "Telegram Gcloner",
+  "description": "Allows you to use gclone on telegram.",
+  "keywords": [
+    "telegram",
+    "gclone"
+  ],
   "repository": "hhttps://github.com/smartass08/telegram_gcloner",
   "env": {
     "APP_ID": {
