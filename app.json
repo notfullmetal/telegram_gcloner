@@ -25,6 +25,6 @@
     },
     "GCLONE_PARA_OVERRIDE": {
       "description": "If you don't know what this is, leave it blank.",
-      "value:: ""
+      "value": ""
     }
   }
