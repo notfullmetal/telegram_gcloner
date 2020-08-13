@@ -24,10 +24,5 @@
       "description": "Your Group ID (multiple separated by commas, first ID is admin)",
       "value": "-1"
     },
-    "GCLONE_PARA_OVERRIDE": {
-      "description": "If you don't know what this is, leave it blank.",
-      "value": "",
-      "required": "False"
-    }
   }
 }
