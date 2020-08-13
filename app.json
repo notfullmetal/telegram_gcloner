@@ -27,6 +27,14 @@
       "description": "If you don't know what this is, leave it blank.",
       "value": ""
     },
+    "addons": [
+      {
+         "options": {
+            "version": "9.5"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
     "buildpacks": [{
       "url": "heroku/python",
     }]
