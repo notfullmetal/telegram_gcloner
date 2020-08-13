@@ -26,7 +26,14 @@
     "GCLONE_PARA_OVERRIDE": {
       "description": "If you don't know what this is, leave it blank.",
       "value:: ""
+    }
   },
+    "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "9.5"
+    }
+  }],
     "buildpacks": [{
       "url": "heroku/python"
     }]
