@@ -23,6 +23,6 @@
     "GROUP_IDS": {
       "description": "Your Group ID (multiple separated by commas, first ID is admin)",
       "value": "-1"
-    },
+    }
   }
 }
