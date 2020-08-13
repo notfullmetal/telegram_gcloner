@@ -4,7 +4,11 @@
   "keywords": [
     "telegram",
     "gclone"
-  ],
+  ],   
+  "buildpacks": [{
+  "url": "heroku/python",
+ }],
+  "stack": "container"
   "repository": "https://github.com/smartass08/telegram_gcloner",
   "env": {
     "Path_TO_GCLONE": {
@@ -27,17 +31,3 @@
       "description": "If you don't know what this is, leave it blank.",
       "value": ""
     },
-    "addons": [
-      {
-         "options": {
-            "version": "9.5"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-    "buildpacks": [{
-      "url": "heroku/python",
-    }]
-   },
-   "stack": "container"
-}
