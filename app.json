@@ -5,12 +5,13 @@
     "telegram",
     "gclone"
   ],   
-  "buildpacks": [{
-  "url": "heroku/python",
- }],
   "stack": "container"
   "repository": "https://github.com/smartass08/telegram_gcloner",
   "env": {
+      "ENV": {
+      "description": "Fill this if you using environ variable as config.",
+      "value": "Yes"
+    },
     "Path_TO_GCLONE": {
       "description": "Path to the gclone file",
       "value": "./gclone"
@@ -31,3 +32,5 @@
       "description": "If you don't know what this is, leave it blank.",
       "value": ""
     },
+  }
+}
