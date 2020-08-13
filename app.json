@@ -5,7 +5,7 @@
     "telegram",
     "gclone"
   ],   
-  "stack": "container"
+  "stack": "container",
   "repository": "https://github.com/smartass08/telegram_gcloner",
   "env": {
       "ENV": {
