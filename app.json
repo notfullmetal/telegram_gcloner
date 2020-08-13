@@ -1,0 +1,36 @@
+  { 
+  "name": "Telegram Gcloner",
+  "description": "Allows you to use gclone on telegram.",
+  "keywords": [
+    "telegram",
+    "gclone"
+  ],   
+  "stack": "container",
+  "repository": "https://github.com/smartass08/telegram_gcloner",
+  "env": {
+      "ENV": {
+      "description": "Fill this if you using environ variable as config.",
+      "value": "Yes"
+    },
+    "Path_TO_GCLONE": {
+      "description": "Path to the gclone file",
+      "value": "./gclone"
+    },
+    "TELEGRAM_TOKEN": {
+      "description": "Bot token generated using @BotFather",
+      "value": ""
+    },
+    "USER_IDS": {
+      "description": "Your Telegram ID (multiple separated by commas, first ID is admin)",
+      "value": "-1"
+    },
+    "GROUP_IDS": {
+      "description": "Your Group ID (multiple separated by commas, first ID is admin)",
+      "value": "-1"
+    },
+    "GCLONE_PARA_OVERRIDE": {
+      "description": "If you don't know what this is, leave it blank.",
+      "value": ""
+    },
+  }
+}
